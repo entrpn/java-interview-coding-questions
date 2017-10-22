@@ -7,8 +7,7 @@ public class SumOf3ElementsIsZero {
 
 	private static boolean isZero(int arr[]) {
 		boolean retval = false;
-		QuickSort qs = new QuickSort();
-		qs.quickSort(arr);
+		QuickSort.sort(arr);
 		int k = arr.length-1;
 		for (int i=0;i < arr.length-2;i++) {
 			int j = i+1;
